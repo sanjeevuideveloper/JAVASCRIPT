@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: "Comic Sans MS",sans-serif;
+}
+h2{
+    background-color: lightsalmon;
+    text-align: center;
+    padding: 10px;
+}
+
+form{
+    background-color: #9bb7c2;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 500px;
+    height:200px;
+    padding:10px;
+}
+h3 span{
+    color: orangered;
+}

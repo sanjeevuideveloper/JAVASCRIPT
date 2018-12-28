@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS DOM Manipulation</title>
+    <link rel="stylesheet" href="11_styles.css">
+</head>
+<body>
+
+    <h2>JS DOM Manipulation</h2>
+   <form>
+       <label>User Name</label>
+       <input type="text" id="user" onkeyup="getMessage()">
+       <button type="button" >Click</button>
+       <h3 id="msg" style="color: orangered"></h3>
+   </form>
+
+    <form>
+        <h3>SMS APP</h3>
+        <textarea cols="30" rows="5" maxlength="100" id="text-area" onkeyup="prepareMsg()">
+
+        </textarea>
+        <h3>The Character Reamining <span id="span">100</span></h3>
+    </form>
+
+<script src="11_script.js"></script>
+</body>
+</html>
